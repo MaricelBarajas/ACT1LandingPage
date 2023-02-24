@@ -14,8 +14,7 @@ ul{
  float: right ; 
  list-style-type:none; 
     background-color: black; 
-    margin-top: 25px; 
- 
+    margin-top: 25px;  
 } 
 ul li { 
  display:inline-block; 
@@ -38,8 +37,6 @@ main ul li.active a{
  } 
  
  
-  
- 
 .main{  
 max-width: 1200px; 
 margin: auto; 
@@ -48,13 +45,13 @@ background-color:black;
  
 .title{ 
  position: right; 
-    padding : 5px 20px; 
+  padding : 5px 20px; 
  
 } 
 .title h1{ 
   color: white; 
   font-size :20px; 
-     margin-top:25px; 
+  margin-top:25px; 
 } 
  
  
