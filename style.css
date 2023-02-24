@@ -207,7 +207,7 @@ h5{
     text-align-last: center; 
 }
 
-@media only screen and (max-width:414px){
+@media only screen and (max-width:480px){
     header{
     width: max-content;
     object-fit: cover;
