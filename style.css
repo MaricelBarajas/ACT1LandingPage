@@ -1,7 +1,7 @@
 *{
 	margin:0;
 	padding:0;
-    font-family: "Times New Roman";
+    font-family: "Times New Roman", Georgia, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 header{ 
@@ -205,9 +205,4 @@ h5{
     margin-top:30px; 
     text-align: justify; 
     text-align-last: center; 
-}
-
-@media only screen and (max-width:500px) {
-  /* For mobile phones: */ 
-	width:100px;
 }
