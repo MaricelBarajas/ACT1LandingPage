@@ -39,7 +39,6 @@ main ul li.active a{
 	}
 
 
- 
 
 .main{ 
 max-width: 1200px;
@@ -52,6 +51,7 @@ background-color:black;
     padding : 5px 20px;
 
 }
+
 .title h1{
 	 color: white;
 	 font-size :20px;
@@ -210,8 +210,4 @@ h5{
     text-align-last: center;
 }
 
-@viewport{
-	width:auto;
-
-}
 
