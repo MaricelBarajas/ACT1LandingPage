@@ -221,6 +221,7 @@ background-position: center, center;
     }
     .title{
         height: 100px;
+	    position:fixed;
     
 }
 .container{
