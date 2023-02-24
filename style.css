@@ -1,213 +1,211 @@
-*{
-	margin:0;
-	padding:0;
-    font-family: "Times New Roman", Georgia, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-header{
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(img/frontpge.jpg);
-	height: 100vh;
-	background-size: cover;	
-	
-}
-
-ul{
-	float: right ;
-	list-style-type:none;
-    background-color: black;
-    margin-top: 25px;
-
-}
-ul li {
-	display:inline-block;
-}
-ul li a{
-	text-decoration: none ;
-	color:white;
-	padding : 5px 20px;
-	border: 1px solid transparent;
-	transition:0.6s ease;
-}
-ul li a:hover{
-	 background-color:white;
-	 color:white;
-}
-main ul li.active a{
-	background-color:black;
-	 color:white;
-	
-	}
-
-
-
-.main{ 
-max-width: 1200px;
-margin: auto;
-background-color:black;
-}
-
-.title{
-	position: right;
-    padding : 5px 20px;
-
-}
-
-.title h1{
-	 color: white;
-	 font-size :20px;
-     margin-top:25px;
-}
-
-
-.button
-{
-	margin-top:30px;
-	margin-left:150px;
-}
-
-.btn{
-	text-decoration: none ;
-	color:white;
-	padding : 5px 20px;
-
-}	
-
-	
-.about{
-    background-color: white;
-    position:absolute;
+*{ 
+ margin:0; 
+ padding:0; 
+    font-family: "Times New Roman", Georgia, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+} 
+header{ 
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(img/frontpge.jpg); 
+ height: 100vh; 
+ background-size: cover; 
+  
+  
+} 
+ul{ 
+ float: right ; 
+ list-style-type:none; 
+    background-color: black; 
+    margin-top: 25px; 
+ 
+} 
+ul li { 
+ display:inline-block; 
+} 
+ul li a{ 
+ text-decoration: none ; 
+ color:white; 
+ padding : 5px 20px; 
+ border: 1px solid transparent; 
+ transition:0.6s ease; 
+} 
+ul li a:hover{ 
+  background-color:white; 
+  color:white; 
+} 
+main ul li.active a{ 
+ background-color:black; 
+  color:white; 
+  
+ } 
+ 
+ 
+  
+ 
+.main{  
+max-width: 1200px; 
+margin: auto; 
+background-color:black; 
+} 
+ 
+.title{ 
+ position: right; 
+    padding : 5px 20px; 
+ 
+} 
+.title h1{ 
+  color: white; 
+  font-size :20px; 
+     margin-top:25px; 
+} 
+ 
+ 
+.button 
+{ 
+ margin-top:30px; 
+ margin-left:150px; 
+} 
+ 
+.btn{ 
+ text-decoration: none ; 
+ color:white; 
+ padding : 5px 20px; 
+ 
+}  
+ 
+  
+.about{ 
+    background-color: white; 
+    position:absolute; 
+    text-align: center;  
+    margin-left: 50px; 
+    margin-right: 50px; 
+} 
+ 
+ 
+ 
+ 
+h2,h3{ 
+ 
+    color: black; 
+    font-size :30px; 
+    margin-top:25px; 
+    padding : 5px 20px; 
     text-align: center; 
-    margin-left: 50px;
-    margin-right: 50px;
+} 
+ 
+.f, .i, .j, .k{ 
+ 
+    text-align: justify; 
+margin-left: 200px; 
+margin-right: 200px; 
+text-align-last: center; 
+} 
+ 
+.s, .q, .w {  
+    color: black; 
+    text-align: justify; 
+    font-size: 10px; 
+} 
+ 
+.row{ 
+   padding: 30px; 
+} 
+ 
+img{ 
+    width:150px; 
+    display: block; 
+  margin-left: auto; 
+  margin-right: auto; 
+} 
+ 
+.container{ 
+    background-color: white; 
+    padding-left: 0; 
+    padding-right: 0; 
+} 
+ 
+.btnsend{ 
+color: black; 
+background-color: white; 
+border-color: black; 
+border-radius: 20px; 
+ padding : 5px 25px; 
+ transition:0.6s ease; 
+font-size: 12px; 
+background-color:black; 
+  color:white; 
+     margin-left: 40px; 
+     margin-right: 50px; 
+ 
+ 
+} 
+ 
+ 
+.col{ 
+ 
+    padding: 30px; 
+    margin-right: 20px; 
+    width: 13rem; 
+    height: 33rem; 
+    background-color: white; 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+ 
+} 
+ 
+h4{ 
+    color: black; 
+    font-size :15px; 
+    margin-top:30px; 
+    text-align: justify; 
+    text-align-last: center; 
+ 
+ 
+} 
+ 
+.aboutimage{ 
+    height:50vh; 
+    width:50vh; 
+      margin-left: auto; 
+      margin-right: auto; 
+    } 
+    
+.footer{ 
+padding: 20px; 
+background-color: whitesmoke; 
+text-align: center; 
+ 
+} 
+ 
+.socmedia{ 
+    list-style-type: none; 
+    display:inline-block; 
+ 
+ 
+ 
+} 
+ 
+.fb, .insta, .email{ 
+    color:black; 
+font-size: 10px; 
+} 
+ 
+.fbicon{ 
+ 
+    height: 25px; 
+    width: 26px; 
+} 
+.instaicon{ 
+    height: 24px; 
+    width: 33px; 
+} 
+.emailicon{ 
+    height: 25px; 
+    width: 25px; 
+} 
+ 
+h5{ 
+    font-size :15px; 
+    margin-top:30px; 
+    text-align: justify; 
+    text-align-last: center; 
 }
-
-
-
-
-h2,h3{
-
-    color: black;
-    font-size :30px;
-    margin-top:25px;
-    padding : 5px 20px;
-    text-align: center;
-}
-
-.f, .i, .j, .k{
-
-    text-align: justify;
-margin-left: 200px;
-margin-right: 200px;
-text-align-last: center;
-}
-
-.s, .q, .w { 
-    color: black;
-    text-align: justify;
-    font-size: 10px;
-}
-
-.row{
-   padding: 30px;
-}
-
-img{
-    width:150px;
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.container{
-    background-color: white;
-    padding-left: 0;
-    padding-right: 0;
-}
-
-.btnsend{
-color: black;
-background-color: white;
-border-color: black;
-border-radius: 20px;
-	padding : 5px 25px;
-	transition:0.6s ease;
-font-size: 12px;
-background-color:black;
-	 color:white;
-     margin-left: 40px;
-     margin-right: 50px;
-
-
-}
-
-
-.col{
-
-    padding: 30px;
-    margin-right: 20px;
-    width: 13rem;
-    height: 33rem;
-    background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-}
-
-h4{
-    color: black;
-    font-size :15px;
-    margin-top:30px;
-    text-align: justify;
-    text-align-last: center;
-
-
-}
-
-.aboutimage{
-    height:50vh;
-    width:50vh;
-      margin-left: auto;
-      margin-right: auto;
-    }
-   
-.footer{
-padding: 20px;
-background-color: whitesmoke;
-text-align: center;
-
-}
-
-.socmedia{
-    list-style-type: none;
-    display:inline-block;
-
-
-
-}
-
-.fb, .insta, .email{
-    color:black;
-font-size: 10px;
-}
-
-.fbicon{
-
-    height: 25px;
-    width: 26px;
-}
-.instaicon{
-    height: 24px;
-    width: 33px;
-}
-.emailicon{
-    height: 25px;
-    width: 25px;
-}
-
-h5{
-    font-size :15px;
-    margin-top:30px;
-    text-align: justify;
-    text-align-last: center;
-}
-
 
