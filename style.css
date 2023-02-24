@@ -207,10 +207,10 @@ h5{
     text-align-last: center; 
 }
 
-@media only screen and (max-width:480px) {
+@media only screen and (max-width:500px) {
   /* For mobile phones: */
-  body {
-    width: auto;
+  .main, .title, .container, .about, .footer {
+    width: 100;
 	}
 	
 	
