@@ -206,3 +206,56 @@ h5{
     text-align: justify; 
     text-align-last: center; 
 }
+
+@media only screen and (max-width:414px){
+    header{
+    width: max-content;
+    object-fit: cover;
+background-position: center, center;
+
+    }
+
+    .main{
+        width: fit-content;
+    
+    }
+    .title{
+        height: 100px;
+    
+}
+.container{
+
+   width: max-content;
+}
+
+.column{
+    width: 60%;
+}
+
+.about{
+    width:max-content;
+    text-align: justify;
+    text-align-last: center;
+object-position: center;
+
+}
+
+.i, .f, .j, .k {
+    width:200px;
+    text-align: justify;
+    text-align-last: center;
+}
+
+
+.aboutimage {
+    width: fit-content;
+   object-fit: cover;
+   object-position: center;
+}
+
+.footer{
+    width:max-content;
+    object-fit: cover;
+}
+}
+
