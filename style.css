@@ -210,7 +210,7 @@ h5{
 @media only screen and (max-width:480px) {
   /* For mobile phones: */
   .main, .title, .button, .btn, .about, .container, .btnsend, .col, .aboutimage, .footer {
-    width: 100%
+    width: 100%;
 	}
 	
 	
