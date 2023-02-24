@@ -1,10 +1,9 @@
 <!DOCTYPE html>  
   <head> 
-    <meta charset="utf-8"> 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0"> 
  
     <!-- Bootstrap CSS --> 
-    <link rel="stylesheet" href="style.css" media="only screen and (max-device-width:480px;, only screen and(webkit-min-device-pixel-ratio:1.5)"/> 
+    <link rel="stylesheet" type="text/css" href="style.css" media="only screen and (max-device-width:480px;), only screen and(webkit-min-device-pixel-ratio:1.5)"/> 
  
     <title>The Beauty of Unsaid Words</title> 
   <body> 
