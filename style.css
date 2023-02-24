@@ -207,3 +207,10 @@ h5{
     text-align-last: center; 
 }
 
+@media only screen and (max-width:480px) {
+  /* For mobile phones: */
+  .main, .title, .button, .btn, .about, .container, .btnsend, .col, .aboutimage, .footer {
+    width: 100%
+	}
+	
+	
