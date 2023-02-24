@@ -210,6 +210,6 @@ h5{
 @media only screen and (max-width:500px) {
   /* For mobile phones: */
   .main, .title, .container, .about, .footer {
-    width: 100;
+    width: 100px;
 	}
 }
