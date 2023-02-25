@@ -226,5 +226,8 @@ body{
 background-position: center, center;
 
     }
+	.container{
+		width: 60%
 
+}
 }
