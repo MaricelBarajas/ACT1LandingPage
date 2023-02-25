@@ -214,7 +214,11 @@ h5{
 }
 
 @media only screen and (max-width:480px){
-    header{
+html {
+    width: fit-content;
+}
+	
+	header{
     width: max-content;
     object-fit: cover;
 background-position: center, center;
