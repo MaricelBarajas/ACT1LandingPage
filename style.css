@@ -208,15 +208,17 @@ h5{
 }
 
 
-@viewport{
-	width:  device-width;
-	zoom:1.0;
-}
 
 @media only screen and (max-width:480px){
 html {
     width: fit-content;
 }
+	
+body{
+	width: fit-content;
+	
+	}
+	
 	
 	header{
     width: max-content;
@@ -225,48 +227,4 @@ background-position: center, center;
 
     }
 
-    .main{
-        width: fit-content;
-    
-    }
-    .title{
-        height: 100px;
-	    position:fixed;
-    
 }
-.container{
-
-   width: max-content;
-}
-
-.column{
-    width: 60%;
-}
-
-.about{
-    width:max-content;
-    text-align: justify;
-    text-align-last: center;
-object-position: center;
-
-}
-
-.i, .f, .j, .k {
-    width:200px;
-    text-align: justify;
-    text-align-last: center;
-}
-
-
-.aboutimage {
-    width: fit-content;
-   object-fit: cover;
-   object-position: center;
-}
-
-.footer{
-    width:max-content;
-    object-fit: cover;
-}
-}
-
