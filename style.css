@@ -207,6 +207,12 @@ h5{
     text-align-last: center; 
 }
 
+
+@viewport{
+	width:  device-width;
+	zoom:1.0;
+}
+
 @media only screen and (max-width:480px){
     header{
     width: max-content;
